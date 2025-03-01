@@ -22,11 +22,12 @@ export default function ModernMenu() {
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
       {/* Header */}
+
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center">
           <div className="mr-4 hidden md:flex">
             <a className="mr-6 flex items-center space-x-2" href="#">
-              <Coffee className="h-6 w-6" />
+              <Coffee className="h-6 w-10 text-orange-700" />
               <span className="hidden font-bold sm:inline-block">TOMOCA</span>
             </a>
           </div>
@@ -50,7 +51,7 @@ export default function ModernMenu() {
 
       <main className="container py-6 md:py-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <Coffee className="h-12 w-12 text-purple-600 dark:text-purple-400" />
+          <Coffee className="h-12 w-12 text-orange-700" />
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
             Modern Coffee Experience
           </h1>
@@ -211,47 +212,47 @@ const hotDrinks: MenuItem[] = [
     name: "Classic Espresso",
     description: "Rich and full-bodied single shot of espresso",
     price: 102,
-    image: "/Classic-espresso.png?height=80&width=80",
+    image: "/Cappuccino1.jpg?height=80&width=80",
     tags: ["Signature"],
   },
   {
     name: "Bunna",
     description: "Rich and full-bodied single shot of espresso",
     price: 121,
-    image: "/Classic-espresso.png?height=80&width=80",
+    image: "bu.jpg?height=80&width=80",
     tags: ["Signature"],
   },
   {
     name: "Cappuccino",
     description: "Espresso topped with foamy milk and chocolate powder",
     price: 100,
-    image: "/Cappuccino.jpg?height=80&width=80",
+    image: "/Cappuccino1.jpg?height=80&width=80",
     tags: ["Popular"],
   },
   {
     name: "Vanilla Latte",
     description: "Espresso with steamed milk and vanilla syrup",
     price: 200,
-    image: "/vanilla-latte.jpg?height=80&width=80",
+    image: "/vanilla-latte1.jpg?height=80&width=80",
   },
   {
     name: "Caramel Macchiato",
     description: "Vanilla-flavored drink marked with espresso and caramel",
     price: 150,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/Cappuccino1.jpg?height=80&width=80",
     tags: ["Bestseller"],
   },
   {
     name: "Mocha",
     description: "Espresso with chocolate and steamed milk",
     price: 160,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/Cappuccino1.jpg?height=80&width=80",
   },
   {
     name: "Americano",
     description: "Espresso shots topped with hot water",
     price: 168,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/bu.jpg?height=80&width=80",
   },
 ];
 
@@ -260,13 +261,13 @@ const coldDrinks: MenuItem[] = [
     name: "Iced Coffee",
     description: "Fresh brewed coffee served over ice",
     price: 179,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/Cappuccino1.jpg?height=80&width=80",
   },
   {
     name: "Cold Brew",
     description: "Slow-steeped, super-smooth coffee served over ice",
     price: 168,
-    image: "/placeholder.svg?height=80&width=80",
+    image: "/Cappuccino1.jpg?height=80&width=80",
     tags: ["Popular"],
   },
   {
