@@ -348,24 +348,24 @@ const featuredItems: MenuItem[] = [
     name: "Signature Cold Brew",
     description: "Our house special cold brew with vanilla sweet cream",
     price: 235,
-    image: "/placeholder.svg?height=400&width=300",
+    image: "/coldb.jpg?height=400&width=300",
   },
   {
     name: "Lavender Honey Latte",
     description: "Espresso with lavender syrup and local honey",
     price: 233,
-    image: "/placeholder.svg?height=400&width=300",
+    image: "/honel.jpg?height=400&width=300",
   },
   {
     name: "Matcha Green Tea Latte",
     description: "Premium Japanese matcha with steamed milk",
     price: 123,
-    image: "/placeholder.svg?height=400&width=300",
+    image: "/mach.jpg?height=400&width=300",
   },
   {
     name: "Caramel Frappé",
     description: "Blended coffee with caramel and whipped cream",
     price: 352,
-    image: "/placeholder.svg?height=400&width=300",
+    image: "/carm.jpg?height=400&width=300",
   },
 ];
